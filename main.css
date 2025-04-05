@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url(./img/background-vendas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin:50px auto;
+    max-width:580px;
+    width:100%;
+}
+h1,h2{
+    color:white;
+}
+form{
+    margin-top:40px;
+}
+#form-calculo{
+    display:flex;
+    flex-direction: column;
+}
+input[type="number"],
+button{
+    padding:5px;
+    margin:5px;
+}
+button{
+    background-color:rgb(26, 112, 112);
+    text-transform:uppercase;
+    color:white;
+    font-weight:bold;
+    font-size:12px;
+    font-style:initial;
+    cursor:pointer;
+}

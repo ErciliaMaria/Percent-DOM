@@ -12,6 +12,7 @@ body{
     margin:50px auto;
     max-width:580px;
     width:100%;
+    margin-top:100px;
 }
 h1,h2{
     color:white;
@@ -25,7 +26,7 @@ form{
 }
 input[type="number"],
 button{
-    padding:5px;
+    padding:10px;
     margin:5px;
 }
 button{

@@ -14,7 +14,7 @@ form.addEventListener('submit', function(e){
     const valor1 = parseFloat(primeiroRegistro.value);
     const valor2 = parseFloat(segundoRegistro.value);
 
-    const percent = (valor2 / valor1).toFixed(2); // calcula em porcentagem mesmo
+    const percent = ((valor2 / valor1) * 100).toFixed(2); // calcula em porcentagem mesmo
 
     const mensagemSucesso = `Aumento de vendar em ${percent} %`; 
 
